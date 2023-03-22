@@ -1,0 +1,9 @@
+[Android_Redmi 4A INFO ] 2023-03-18 11:42:17.921 ServerManager:20 - starting appium server
+[Android_Redmi 4A INFO ] 2023-03-18 11:42:36.068 ServerManager:29 - Appium server started
+[Android_Redmi 4A INFO ] 2023-03-18 11:42:36.097 DriverManager:28 - initializing Appium driver
+[Android_Redmi 4A INFO ] 2023-03-18 11:42:36.118 PropertyManager:17 - loading config properties
+[Android_Redmi 4A INFO ] 2023-03-18 11:42:36.122 CapabilitiesManager:18 - getting capabilities
+[Android_Redmi 4A INFO ] 2023-03-18 11:42:55.220 DriverManager:40 - Driver is initialized
+[Android_Redmi 4A INFO ] 2023-03-18 11:42:59.540 VideoManager:35 - video path: Android_Redmi 4A\Videos\Login with invalid user name.mp4
+[Android_Redmi 4A INFO ] 2023-03-18 11:43:02.503 VideoManager:35 - video path: Android_Redmi 4A\Videos\Login with invalid password.mp4
+[Android_Redmi 4A INFO ] 2023-03-18 11:43:05.731 VideoManager:35 - video path: Android_Redmi 4A\Videos\Login with valid user name and password.mp4

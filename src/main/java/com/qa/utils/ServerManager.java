@@ -35,8 +35,13 @@ public class ServerManager {
 
     public AppiumDriverLocalService WindowsGetAppiumService() {
         GlobalParams params = new GlobalParams();
+        HashMap<String, String> environment = new HashMap<String, String>();
+//        environment.put("PATH", "/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/bin:/Users/Om/Library/Android/sdk/tools:/Users/Om/Library/Android/sdk/platform-tools:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin" + System.getenv("PATH"));
+        environment.put("ANDROID_HOME", "C:/Users/pavan/AppData/Local/Android/Sdk");
+        environment.put("JAVA_HOME", "C:/Program Files/Java/jdk1.8.0_291");
         return AppiumDriverLocalService.buildService(new AppiumServiceBuilder()
                 .usingAnyFreePort()
+                .withEnvironment(environment)
                 .withArgument(GeneralServerFlag.SESSION_OVERRIDE)
                 .withLogFile(new File(params.getPlatformName() + "_"
                         + params.getDeviceName() + File.separator + "Server.log")));

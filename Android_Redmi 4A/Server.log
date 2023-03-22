@@ -1,0 +1,328 @@
+2023-03-18 06:12:35:776 [Appium] Welcome to Appium v1.22.3
+2023-03-18 06:12:35:778 [Appium] Non-default server args:
+2023-03-18 06:12:35:778 [Appium]   port: 15736
+2023-03-18 06:12:35:778 [Appium]   sessionOverride: true
+2023-03-18 06:12:35:778 [Appium]   logFile: C:\Users\pavan\eclipse-workspace\Appium\com.Fiinu.uk\Android_Redmi 4A\Server.log
+2023-03-18 06:12:35:804 [Appium] Appium REST http interface listener started on 0.0.0.0:15736
+2023-03-18 06:12:36:046 [HTTP] --> GET /wd/hub/status
+2023-03-18 06:12:36:046 [HTTP] {}
+2023-03-18 06:12:36:048 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2023-03-18 06:12:36:049 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.22.3"}}
+2023-03-18 06:12:36:061 [HTTP] <-- GET /wd/hub/status 200 8 ms - 68
+2023-03-18 06:12:36:061 [HTTP] 
+2023-03-18 06:12:36:065 [HTTP] --> GET /wd/hub/status
+2023-03-18 06:12:36:065 [HTTP] {}
+2023-03-18 06:12:36:066 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2023-03-18 06:12:36:066 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.22.3"}}
+2023-03-18 06:12:36:067 [HTTP] <-- GET /wd/hub/status 200 2 ms - 68
+2023-03-18 06:12:36:067 [HTTP] 
+2023-03-18 06:12:36:532 [HTTP] Request idempotency key: e27029c9-5b1a-4ff1-81bc-3cf051ecff86
+2023-03-18 06:12:36:610 [HTTP] --> POST /wd/hub/session
+2023-03-18 06:12:36:611 [HTTP] {"desiredCapabilities":{"appActivity":"com.fiinumobileapp.MainActivity","appPackage":"com.fiinumobileapp","automationName":"UiAutomator2","chromeDriverPort":"11000","platformName":"Android","udid":"89d3da547d04","deviceName":"Redmi 4A","systemPort":"10000"},"capabilities":{"firstMatch":[{"appium:appActivity":"com.fiinumobileapp.MainActivity","appium:appPackage":"com.fiinumobileapp","appium:automationName":"UiAutomator2","chromeDriverPort":"11000","appium:deviceName":"Redmi 4A","platformName":"android","appium:systemPort":"10000","appium:udid":"89d3da547d04"}]}}
+2023-03-18 06:12:36:611 [W3C] Calling AppiumDriver.createSession() with args: [{"appActivity":"com.fiinumobileapp.MainActivity","appPackage":"com.fiinumobileapp","automationName":"UiAutomator2","chromeDriverPort":"11000","platformName":"Android","udid":"89d3da547d04","deviceName":"Redmi 4A","systemPort":"10000"},null,{"firstMatch":[{"appium:appActivity":"com.fiinumobileapp.MainActivity","appium:appPackage":"com.fiinumobileapp","appium:automationName":"UiAutomator2","chromeDriverPort":"11000","appium:deviceName":"Redmi 4A","platformName":"android","appium:systemPort":"10000","appium:udid":"89d3da547d04"}]}]
+2023-03-18 06:12:36:611 [BaseDriver] Event 'newSessionRequested' logged at 1679119956611 (11:42:36 GMT+0530 (India Standard Time))
+2023-03-18 06:12:36:613 [BaseDriver] The following capabilities are not standard capabilities and should have an extension prefix:
+2023-03-18 06:12:36:613 [BaseDriver]   chromeDriverPort
+2023-03-18 06:12:37:992 [Appium] Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+2023-03-18 06:12:37:992 [Appium] There are no active sessions for cleanup
+2023-03-18 06:12:37:996 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2023-03-18 06:12:37:996 [BaseDriver] Creating session with W3C capabilities: {
+2023-03-18 06:12:37:996 [BaseDriver]   "alwaysMatch": {
+2023-03-18 06:12:37:996 [BaseDriver]     "appium:chromeDriverPort": "11000",
+2023-03-18 06:12:37:996 [BaseDriver]     "platformName": "android",
+2023-03-18 06:12:37:996 [BaseDriver]     "appium:appActivity": "com.fiinumobileapp.MainActivity",
+2023-03-18 06:12:37:996 [BaseDriver]     "appium:appPackage": "com.fiinumobileapp",
+2023-03-18 06:12:37:996 [BaseDriver]     "appium:automationName": "UiAutomator2",
+2023-03-18 06:12:37:996 [BaseDriver]     "appium:deviceName": "Redmi 4A",
+2023-03-18 06:12:37:996 [BaseDriver]     "appium:systemPort": "10000",
+2023-03-18 06:12:37:997 [BaseDriver]     "appium:udid": "89d3da547d04"
+2023-03-18 06:12:37:997 [BaseDriver]   },
+2023-03-18 06:12:37:997 [BaseDriver]   "firstMatch": [
+2023-03-18 06:12:37:997 [BaseDriver]     {}
+2023-03-18 06:12:37:997 [BaseDriver]   ]
+2023-03-18 06:12:37:997 [BaseDriver] }
+2023-03-18 06:12:37:998 [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+2023-03-18 06:12:37:998 [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+2023-03-18 06:12:38:001 [BaseDriver] Capability 'systemPort' changed from string ('10000') to integer (10000). This may cause unexpected behavior
+2023-03-18 06:12:38:001 [BaseDriver] Capability 'chromeDriverPort' changed from string ('11000') to integer (11000). This may cause unexpected behavior
+2023-03-18 06:12:38:002 [BaseDriver] Session created with session id: 4e33d1f1-0322-48e2-80b7-3108d5d41d5a
+2023-03-18 06:12:38:003 [UiAutomator2] Starting 'com.fiinumobileapp' directly on the device
+2023-03-18 06:12:38:021 [ADB] Found 2 'build-tools' folders under 'C:/Users/pavan/AppData/Local/Android/Sdk' (newest first):
+2023-03-18 06:12:38:021 [ADB]     C:/Users/pavan/AppData/Local/Android/Sdk/build-tools/33.0.0
+2023-03-18 06:12:38:021 [ADB]     C:/Users/pavan/AppData/Local/Android/Sdk/build-tools/30.0.3
+2023-03-18 06:12:38:022 [ADB] Using 'adb.exe' from 'C:\Users\pavan\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2023-03-18 06:12:38:023 [ADB] Running 'C:\Users\pavan\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+2023-03-18 06:12:38:100 [AndroidDriver] Retrieving device list
+2023-03-18 06:12:38:100 [ADB] Trying to find a connected android device
+2023-03-18 06:12:38:102 [ADB] Getting connected devices
+2023-03-18 06:12:38:135 [ADB] Connected devices: [{"udid":"89d3da547d04","state":"device"}]
+2023-03-18 06:12:38:135 [AndroidDriver] Using device: 89d3da547d04
+2023-03-18 06:12:38:138 [ADB] Using 'adb.exe' from 'C:\Users\pavan\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2023-03-18 06:12:38:139 [ADB] Running 'C:\Users\pavan\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+2023-03-18 06:12:38:174 [ADB] Setting device id to 89d3da547d04
+2023-03-18 06:12:38:175 [ADB] Running 'C:\Users\pavan\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 89d3da547d04 shell getprop ro.build.version.sdk'
+2023-03-18 06:12:38:252 [ADB] Current device property 'ro.build.version.sdk': 25
+2023-03-18 06:12:38:253 [ADB] Device API level: 25
+2023-03-18 06:12:38:253 [AndroidDriver] No app sent in, not parsing package/activity
+2023-03-18 06:12:38:254 [ADB] Running 'C:\Users\pavan\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 89d3da547d04 wait-for-device'
+2023-03-18 06:12:38:296 [ADB] Running 'C:\Users\pavan\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 89d3da547d04 shell echo ping'
+2023-03-18 06:12:38:343 [AndroidDriver] Pushing settings apk to device...
+2023-03-18 06:12:38:343 [ADB] Getting install status for io.appium.settings
+2023-03-18 06:12:38:343 [ADB] Running 'C:\Users\pavan\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 89d3da547d04 shell dumpsys package io.appium.settings'
+2023-03-18 06:12:38:436 [ADB] 'io.appium.settings' is installed
+2023-03-18 06:12:38:437 [ADB] Getting package info for 'io.appium.settings'
+2023-03-18 06:12:38:437 [ADB] Running 'C:\Users\pavan\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 89d3da547d04 shell dumpsys package io.appium.settings'
+2023-03-18 06:12:38:554 [ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('3.4.0' >= '3.4.0')
+2023-03-18 06:12:38:554 [ADB] There is no need to install/upgrade 'C:\Users\pavan\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+2023-03-18 06:12:38:555 [ADB] Getting IDs of all 'io.appium.settings' processes
+2023-03-18 06:12:38:555 [ADB] Running 'C:\Users\pavan\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 89d3da547d04 shell 'pgrep --help; echo $?''
+2023-03-18 06:12:38:637 [ADB] Running 'C:\Users\pavan\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 89d3da547d04 shell 'pgrep ^appium\\.settings$ || pgrep ^io\\.appium\\.setti$''
+2023-03-18 06:12:38:772 [ADB] Getting IDs of all 'io.appium.settings' processes
+2023-03-18 06:12:38:773 [ADB] Running 'C:\Users\pavan\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 89d3da547d04 shell 'pgrep ^appium\\.settings$ || pgrep ^io\\.appium\\.setti$''
+2023-03-18 06:12:38:896 [ADB] Starting Appium Settings app
+2023-03-18 06:12:38:897 [ADB] Running 'C:\Users\pavan\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 89d3da547d04 shell am start -n io.appium.settings/.Settings -a android.intent.action.MAIN -c android.intent.category.LAUNCHER'
+2023-03-18 06:12:39:972 [ADB] Getting IDs of all 'io.appium.settings' processes
+2023-03-18 06:12:39:972 [ADB] Running 'C:\Users\pavan\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 89d3da547d04 shell 'pgrep ^appium\\.settings$ || pgrep ^io\\.appium\\.setti$''
+2023-03-18 06:12:40:100 [ADB] Running 'C:\Users\pavan\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 89d3da547d04 shell appops set io.appium.settings android:mock_location allow'
+2023-03-18 06:12:40:208 [Logcat] Starting logs capture with command: C:\\Users\\pavan\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s 89d3da547d04 logcat -v threadtime
+2023-03-18 06:12:40:326 [UiAutomator2] Forwarding UiAutomator2 Server port 6790 to local port 10000
+2023-03-18 06:12:40:333 [ADB] Forwarding system: 10000 to device: 6790
+2023-03-18 06:12:40:333 [ADB] Running 'C:\Users\pavan\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 89d3da547d04 forward tcp:10000 tcp:6790'
+2023-03-18 06:12:40:467 [ADB] Getting install status for io.appium.uiautomator2.server
+2023-03-18 06:12:40:467 [ADB] Running 'C:\Users\pavan\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 89d3da547d04 shell dumpsys package io.appium.uiautomator2.server'
+2023-03-18 06:12:40:703 [ADB] 'io.appium.uiautomator2.server' is installed
+2023-03-18 06:12:40:703 [ADB] Getting package info for 'io.appium.uiautomator2.server'
+2023-03-18 06:12:40:703 [ADB] Running 'C:\Users\pavan\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 89d3da547d04 shell dumpsys package io.appium.uiautomator2.server'
+2023-03-18 06:12:41:154 [ADB] The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('4.27.0' >= '4.27.0')
+2023-03-18 06:12:41:155 [UiAutomator2] io.appium.uiautomator2.server installation state: sameVersionInstalled
+2023-03-18 06:12:41:155 [ADB] Checking app cert for C:\Users\pavan\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk
+2023-03-18 06:12:41:219 [ADB] Using 'apksigner.jar' from 'C:\Users\pavan\AppData\Local\Android\Sdk\build-tools\33.0.0\lib\apksigner.jar'
+2023-03-18 06:12:41:223 [ADB] Starting apksigner: 'C:\\Program Files\\Java\\jdk1.8.0_291\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\pavan\\AppData\\Local\\Android\\Sdk\\build-tools\\33.0.0\\lib\\apksigner.jar verify --print-certs C:\\Users\\pavan\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v4.27.0.apk
+2023-03-18 06:12:44:047 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2023-03-18 06:12:44:047 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2023-03-18 06:12:44:047 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2023-03-18 06:12:44:048 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2023-03-18 06:12:44:048 [ADB] 
+2023-03-18 06:12:44:048 [ADB] sha256 hash did match for 'appium-uiautomator2-server-v4.27.0.apk'
+2023-03-18 06:12:44:048 [ADB] 'C:\Users\pavan\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' is signed with the default certificate
+2023-03-18 06:12:44:048 [ADB] Getting install status for io.appium.uiautomator2.server.test
+2023-03-18 06:12:44:048 [ADB] Running 'C:\Users\pavan\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 89d3da547d04 shell dumpsys package io.appium.uiautomator2.server.test'
+2023-03-18 06:12:44:150 [ADB] 'io.appium.uiautomator2.server.test' is installed
+2023-03-18 06:12:44:150 [ADB] Checking app cert for C:\Users\pavan\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk
+2023-03-18 06:12:44:156 [ADB] Starting apksigner: 'C:\\Program Files\\Java\\jdk1.8.0_291\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\pavan\\AppData\\Local\\Android\\Sdk\\build-tools\\33.0.0\\lib\\apksigner.jar verify --print-certs C:\\Users\\pavan\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk
+2023-03-18 06:12:44:845 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2023-03-18 06:12:44:845 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2023-03-18 06:12:44:845 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2023-03-18 06:12:44:845 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2023-03-18 06:12:44:845 [ADB] 
+2023-03-18 06:12:44:845 [ADB] sha256 hash did match for 'appium-uiautomator2-server-debug-androidTest.apk'
+2023-03-18 06:12:44:845 [ADB] 'C:\Users\pavan\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+2023-03-18 06:12:44:845 [UiAutomator2] Server packages are not going to be (re)installed
+2023-03-18 06:12:44:847 [UiAutomator2] Waiting up to 30000ms for services to be available
+2023-03-18 06:12:44:847 [ADB] Running 'C:\Users\pavan\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 89d3da547d04 shell pm list instrumentation'
+2023-03-18 06:12:45:808 [UiAutomator2] Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+2023-03-18 06:12:45:809 [ADB] Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+2023-03-18 06:12:45:810 [ADB] Got the following command chunks to execute: [["dumpsys","deviceidle","whitelist","+io.appium.settings",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server.test",";"]]
+2023-03-18 06:12:45:810 [ADB] Running 'C:\Users\pavan\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 89d3da547d04 shell dumpsys deviceidle whitelist +io.appium.settings ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server.test ;'
+2023-03-18 06:12:45:941 [UiAutomator2] No app capability. Assuming it is already on the device
+2023-03-18 06:12:45:941 [ADB] Getting install status for com.fiinumobileapp
+2023-03-18 06:12:45:941 [ADB] Running 'C:\Users\pavan\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 89d3da547d04 shell dumpsys package com.fiinumobileapp'
+2023-03-18 06:12:46:039 [ADB] 'com.fiinumobileapp' is installed
+2023-03-18 06:12:46:039 [ADB] Running 'C:\Users\pavan\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 89d3da547d04 shell am force-stop com.fiinumobileapp'
+2023-03-18 06:12:47:017 [ADB] Running 'C:\Users\pavan\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 89d3da547d04 shell pm clear com.fiinumobileapp'
+2023-03-18 06:12:48:020 [AndroidDriver] Performed fast reset on the installed 'com.fiinumobileapp' application (stop and clear)
+2023-03-18 06:12:48:021 [UiAutomator2] Performing shallow cleanup of automation leftovers
+2023-03-18 06:12:48:058 [UiAutomator2] No obsolete sessions have been detected (socket hang up)
+2023-03-18 06:12:48:059 [ADB] Running 'C:\Users\pavan\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 89d3da547d04 shell am force-stop io.appium.uiautomator2.server.test'
+2023-03-18 06:12:49:221 [UiAutomator2] Starting UIAutomator2 server 4.27.0
+2023-03-18 06:12:49:221 [UiAutomator2] Using UIAutomator2 server from 'C:\Users\pavan\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' and test from 'C:\Users\pavan\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+2023-03-18 06:12:49:221 [UiAutomator2] Waiting up to 30000ms for UiAutomator2 to be online...
+2023-03-18 06:12:49:221 [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","89d3da547d04","shell","am","instrument","-w","-e","disableAnalytics",true,"io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+2023-03-18 06:12:49:242 [WD Proxy] Matched '/status' to command name 'getStatus'
+2023-03-18 06:12:49:243 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:10000/wd/hub/status] with no body
+2023-03-18 06:12:49:250 [WD Proxy] socket hang up
+2023-03-18 06:12:50:263 [WD Proxy] Matched '/status' to command name 'getStatus'
+2023-03-18 06:12:50:264 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:10000/wd/hub/status] with no body
+2023-03-18 06:12:50:268 [WD Proxy] socket hang up
+2023-03-18 06:12:51:153 [Instrumentation] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+2023-03-18 06:12:51:276 [WD Proxy] Matched '/status' to command name 'getStatus'
+2023-03-18 06:12:51:277 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:10000/wd/hub/status] with no body
+2023-03-18 06:12:51:280 [WD Proxy] socket hang up
+2023-03-18 06:12:52:296 [WD Proxy] Matched '/status' to command name 'getStatus'
+2023-03-18 06:12:52:297 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:10000/wd/hub/status] with no body
+2023-03-18 06:12:52:332 [WD Proxy] Got response with status 200: {"sessionId":"None","value":{"message":"UiAutomator2 Server is ready to accept commands","ready":true}}
+2023-03-18 06:12:52:333 [UiAutomator2] The initialization of the instrumentation process took 3112ms
+2023-03-18 06:12:52:333 [WD Proxy] Matched '/session' to command name 'createSession'
+2023-03-18 06:12:52:334 [WD Proxy] Proxying [POST /session] to [POST http://127.0.0.1:10000/wd/hub/session] with body: {"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","chromeDriverPort":11000,"appActivity":"com.fiinumobileapp.MainActivity","appPackage":"com.fiinumobileapp","automationName":"UiAutomator2","deviceName":"Redmi 4A","systemPort":10000,"udid":"89d3da547d04"},"platformName":"android","chromeDriverPort":11000,"appActivity":"com.fiinumobileapp.MainActivity","appPackage":"com.fiinumobileapp","automationName":"UiAutomator2","deviceName":"89d3da547d04","systemPort":10000,"udid":"89d3da547d04","deviceUDID":"89d3da547d04"}],"alwaysMatch":{}}}
+2023-03-18 06:12:52:353 [WD Proxy] Got response with status 200: {"sessionId":"75ca1fee-e0a2-4a43-9602-3af1dcc3e037","value":{"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","chromeDriverPort":11000,"appActivity":"com.fiinumobileapp.MainActivity","appPackage":"com.fiinumobileapp","automationName":"UiAutomator2","deviceName":"Redmi 4A","systemPort":10000,"udid":"89d3da547d04"},"platformName":"android","chromeDriverPort":11000,"appActivity":"com.fiinumobileapp.MainActivity","appPackage":"com.fiinumobileapp","automationName":"UiAutomator2","deviceName":"89d3da547d04","systemPort":10000,"udid":"89d3da547d04","deviceUDID":"89d3da547d04"}],"alwaysMatch":{}},"sessionId":"75ca1fee-e0a2-4a43-9602-3af1dcc3e037"}}
+2023-03-18 06:12:52:353 [WD Proxy] Determined the downstream protocol as 'W3C'
+2023-03-18 06:12:52:370 [WD Proxy] Proxying [GET /appium/device/info] to [GET http://127.0.0.1:10000/wd/hub/session/75ca1fee-e0a2-4a43-9602-3af1dcc3e037/appium/device/info] with no body
+2023-03-18 06:12:52:400 [WD Proxy] Got response with status 200: {"sessionId":"75ca1fee-e0a2-4a43-9602-3af1dcc3e037","value":{"androidId":"687a71d67aecc0a4","apiVersion":"25","bluetooth":{"state":"OFF"},"brand":"Xiaomi","carrierName":"","displayDensity":320,"locale":"en_IN","manufacturer":"Xiaomi","model":"Redmi 4A","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":1048576,"linkUpstreamBandwidthKbps":1048576,"networkCapabilities":"NET_CAPABILITY_NOT_METERED,NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_NOT_ROAMING,NET_CAPABILITY_INTERNET,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_VALIDATED","signalStrength":-63,"transportTypes":"TRANSPORT_WIFI"},"detailedState":"CONNECTED","extraInfo":"\"AARNAA\"","isAvailable":true,"isConnected":true,"isFailover":false,"isRoaming":false,"state":"CONNECTED","subtype":0,"subtypeName":"","type":1,"typeName":"WIFI"}],"platformVersion":"7.1.2","realDisplaySize":"720x1280","timeZone":"Asia/Calcutta"}}
+2023-03-18 06:12:52:401 [ADB] Running 'C:\Users\pavan\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 89d3da547d04 shell dumpsys window'
+2023-03-18 06:12:52:492 [AndroidDriver] Screen already unlocked, doing nothing
+2023-03-18 06:12:52:492 [UiAutomator2] Starting 'com.fiinumobileapp/com.fiinumobileapp.MainActivity and waiting for 'com.fiinumobileapp/com.fiinumobileapp.MainActivity'
+2023-03-18 06:12:52:492 [ADB] Running 'C:\Users\pavan\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 89d3da547d04 shell am start -W -n com.fiinumobileapp/com.fiinumobileapp.MainActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2023-03-18 06:12:55:136 [WD Proxy] Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:10000/wd/hub/session/75ca1fee-e0a2-4a43-9602-3af1dcc3e037/appium/device/pixel_ratio] with no body
+2023-03-18 06:12:55:143 [WD Proxy] Got response with status 200: {"sessionId":"75ca1fee-e0a2-4a43-9602-3af1dcc3e037","value":2}
+2023-03-18 06:12:55:145 [WD Proxy] Matched '/appium/device/system_bars' to command name 'getSystemBars'
+2023-03-18 06:12:55:146 [WD Proxy] Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:10000/wd/hub/session/75ca1fee-e0a2-4a43-9602-3af1dcc3e037/appium/device/system_bars] with no body
+2023-03-18 06:12:55:154 [WD Proxy] Got response with status 200: {"sessionId":"75ca1fee-e0a2-4a43-9602-3af1dcc3e037","value":{"statusBar":50}}
+2023-03-18 06:12:55:155 [WD Proxy] Matched '/window/current/size' to command name 'getWindowSize'
+2023-03-18 06:12:55:155 [WD Proxy] Proxying [GET /window/current/size] to [GET http://127.0.0.1:10000/wd/hub/session/75ca1fee-e0a2-4a43-9602-3af1dcc3e037/window/current/size] with no body
+2023-03-18 06:12:55:166 [WD Proxy] Got response with status 200: {"sessionId":"75ca1fee-e0a2-4a43-9602-3af1dcc3e037","value":{"height":1280,"width":720}}
+2023-03-18 06:12:55:167 [Appium] New AndroidUiautomator2Driver session created successfully, session 4e33d1f1-0322-48e2-80b7-3108d5d41d5a added to master session list
+2023-03-18 06:12:55:168 [BaseDriver] Event 'newSessionStarted' logged at 1679119975168 (11:42:55 GMT+0530 (India Standard Time))
+2023-03-18 06:12:55:169 [W3C (4e33d1f1)] Cached the protocol value 'W3C' for the new session 4e33d1f1-0322-48e2-80b7-3108d5d41d5a
+2023-03-18 06:12:55:170 [W3C (4e33d1f1)] Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","chromeDriverPort":11000,"appActivity":"com.fiinumobileapp.MainActivity","appPackage":"com.fiinumobileapp","automationName":"UiAutomator2","deviceName":"Redmi 4A","systemPort":10000,"udid":"89d3da547d04"},"platformName":"android","chromeDriverPort":11000,"appActivity":"com.fiinumobileapp.MainActivity","appPackage":"com.fiinumobileapp","automationName":"UiAutomator2","deviceName":"89d3da547d04","systemPort":10000,"udid":"89d3da547d04","deviceUDID":"89d3da547d04","deviceApiLevel":25,"platformVersion":"7.1.2","deviceScreenSize":"720x1280","deviceScreenDensity":320,"deviceModel":"Redmi 4A","deviceManufacturer":"Xiaomi","pixelRatio":2,"statBarHeight":50,"viewportRect":{"left":0,"top":50,"width":720,"height":1230}}}
+2023-03-18 06:12:55:173 [HTTP] <-- POST /wd/hub/session 200 18561 ms - 1027
+2023-03-18 06:12:55:173 [HTTP] 
+2023-03-18 06:12:55:748 [HTTP] --> POST /wd/hub/session/4e33d1f1-0322-48e2-80b7-3108d5d41d5a/appium/start_recording_screen
+2023-03-18 06:12:55:749 [HTTP] {}
+2023-03-18 06:12:55:756 [W3C (4e33d1f1)] Calling AppiumDriver.startRecordingScreen() with args: [null,"4e33d1f1-0322-48e2-80b7-3108d5d41d5a"]
+2023-03-18 06:12:55:758 [ADB] Getting IDs of all 'screenrecord' processes
+2023-03-18 06:12:55:759 [ADB] Running 'C:\Users\pavan\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 89d3da547d04 shell 'pgrep ^screenrecord$ || pgrep ^screenrecord$''
+2023-03-18 06:12:55:945 [AndroidDriver] Screen recording has not been previously started by Appium. There is nothing to stop
+2023-03-18 06:12:55:945 [ADB] Getting IDs of all 'screenrecord' processes
+2023-03-18 06:12:55:945 [ADB] Running 'C:\Users\pavan\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 89d3da547d04 shell 'pgrep ^screenrecord$ || pgrep ^screenrecord$''
+2023-03-18 06:12:56:070 [ADB] Building screenrecord process with the command line: adb -P 5037 -s 89d3da547d04 shell screenrecord --time-limit 180 /sdcard/41d19902.mp4
+2023-03-18 06:12:56:095 [ADB] Running 'C:\Users\pavan\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 89d3da547d04 shell "[ -e '/sdcard/41d19902.mp4' ] && echo __PASS__"'
+2023-03-18 06:12:56:482 [ADB] Running 'C:\Users\pavan\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 89d3da547d04 shell "[ -e '/sdcard/41d19902.mp4' ] && echo __PASS__"'
+2023-03-18 06:12:56:553 [W3C (4e33d1f1)] Responding to client with driver.startRecordingScreen() result: ""
+2023-03-18 06:12:56:554 [HTTP] <-- POST /wd/hub/session/4e33d1f1-0322-48e2-80b7-3108d5d41d5a/appium/start_recording_screen 200 805 ms - 12
+2023-03-18 06:12:56:554 [HTTP] 
+2023-03-18 06:12:56:621 [HTTP] --> GET /wd/hub/session/4e33d1f1-0322-48e2-80b7-3108d5d41d5a/screenshot
+2023-03-18 06:12:56:622 [HTTP] {}
+2023-03-18 06:12:56:624 [W3C (4e33d1f1)] Calling AppiumDriver.getScreenshot() with args: ["4e33d1f1-0322-48e2-80b7-3108d5d41d5a"]
+2023-03-18 06:12:56:625 [WD Proxy] Matched '/screenshot' to command name 'getScreenshot'
+2023-03-18 06:12:56:625 [WD Proxy] Proxying [GET /screenshot] to [GET http://127.0.0.1:10000/wd/hub/session/75ca1fee-e0a2-4a43-9602-3af1dcc3e037/screenshot] with no body
+2023-03-18 06:12:57:132 [WD Proxy] Got response with status 200: {"sessionId":"75ca1fee-e0a2-4a43-9602-3af1dcc3e037","value":"iVBORw0KGgoAAAANSUhEUgAAAtAAAAUACAYAAABuzmU9AAAABHNCSVQICAgIfAhkiAAAIABJREFU\neJzs3XmYXGWB/+1vVXe6OztkZxGQXdGgkS0gwcgWdiMgjAoIggrjiIogzgwYBMUNuUYFmXeUxW0E\niSwjm7KIzg8QhIEIyr4EkOxkI0unu+r9o0mRTjohTyAIeN/X1ZCqOnXO6QDhU6ef8zyVJPUAAACr\npfr3PgEAAHgjEdAAAFBAQAMAQAEBDQAABQQ0AAAUENAAAFBAQAMAQAEBDQAABQQ0AAAUENAAAFBA\nQAMAQAEBDQAABQQ0AAAUaP57nwAAQInevXvnoIMOytixY7PRRhslSZ5++uncfPPNmThxYpYsWZIk\nGTt2bPbee++cddZZmT9//mt6jltssUU6OjryxBNPvKbHfT2pVCrZbbfdss8++2SHHXbI8OHDs846\n67xmx+/s7My0adMyefLk3HTTTbn66qszefLkV2XflST1V2VPAABr2V577ZVvfOMbGT58eI+vP/zw\nwzn55JMzbNiwXHDBBWlqasoBBxyQu++++zU7x6OPPjpf/epXc/PNN+ejH/3oa3bcvn37ZsSIEenX\nr1/a2trSu3fvtLa2prOzM4sWLcrChQuzcOHCzJgxIzNmzEitVltr57LTTjtlwoQJGTly5Fo7RqnO\nzs789Kc/zTe+8Y3Mnj37Fe1LQAMAbwgf/ehH881vfjNJ8sQTT+SKK67IpEmTUqvVss022+Twww/P\nxhtvnCSp1WqpVqu58MIL8+///u+v2TluvfXWue6669La2pqTTz45P/vZz9bq8Xr37p2NN94466+/\nfvr27Zt6vSvrKpVKj9vX6/VUKpXG1dlnnnkmU6ZMeVXP6bjjjsuXv/zlVKvV1Gq13HDDDbn++uvz\n0EMPZcaMGens7HxVj7cyffr0...
+2023-03-18 06:12:57:133 [W3C (4e33d1f1)] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAAtAAAAUACAYAAABuzmU9AAAABHNCSVQICAgIfAhkiAAAIABJREFU\neJzs3XmYXGWB/+1vVXe6OztkZxGQXdGgkS0gwcgWdiMgjAoIggrjiIogzgwYBMUNuUYFmXeUxW0E\niSwjm7KIzg8QhIEIyr4EkOxkI0unu+r9o0mRTjohTyAIeN/X1ZCqOnXO6QDhU6ef8zyVJPUAAACr\npfr3PgEAAHgjEdAAAFBAQAMAQAEBDQAABQQ0AAAUENAAAFBAQAMAQAEBDQAABQQ0AAAUENAAAFBA\nQAMAQAEBDQAABQQ0AAAUaP57nwAAQInevXvnoIMOytixY7PRRhslSZ5++uncfPPNmThxYpYsWZIk\nGTt2bPbee++cddZZmT9//mt6jltssUU6OjryxBNPvKbHfT2pVCrZbbfdss8++2SHHXbI8OHDs846\n67xmx+/s7My0adMyefLk3HTTTbn66qszefLkV2XflST1V2VPAABr2V577ZVvfOMbGT58eI+vP/zw\nwzn55JMzbNiwXHDBBWlqasoBBxyQu++++zU7x6OPPjpf/epXc/PNN+ejH/3oa3bcvn37ZsSIEenX\nr1/a2trSu3fvtLa2prOzM4sWLcrChQuzcOHCzJgxIzNmzEitVltr57LTTjtlwoQJGTly5Fo7RqnO\nzs789Kc/zTe+8Y3Mnj37Fe1LQAMAbwgf/ehH881vfjNJ8sQTT+SKK67IpEmTUqvVss022+Twww/P\nxhtvnCSp1WqpVqu58MIL8+///u+v2TluvfXWue6669La2pqTTz45P/vZz9bq8Xr37p2NN94466+/\nfvr27Zt6vSvrKpVKj9vX6/VUKpXG1dlnnnkmU6ZMeVXP6bjjjsuXv/zlVKvV1Gq13HDDDbn++uvz\n0EMPZcaMGens7HxVj7cyffr0yfDhwzN69OiMHz8+m2++eZLkySefzFFHHZVHHnlkjff9qgb0oEGD\nctBBB+...
+2023-03-18 06:12:57:135 [HTTP] <-- GET /wd/hub/session/4e33d1f1-0322-48e2-80b7-3108d5d41d5a/screenshot 200 513 ms - 29358
+2023-03-18 06:12:57:135 [HTTP] 
+2023-03-18 06:12:57:155 [HTTP] --> POST /wd/hub/session/4e33d1f1-0322-48e2-80b7-3108d5d41d5a/appium/stop_recording_screen
+2023-03-18 06:12:57:155 [HTTP] {}
+2023-03-18 06:12:57:164 [W3C (4e33d1f1)] Calling AppiumDriver.stopRecordingScreen() with args: [null,"4e33d1f1-0322-48e2-80b7-3108d5d41d5a"]
+2023-03-18 06:12:57:166 [ADB] Getting IDs of all 'screenrecord' processes
+2023-03-18 06:12:57:167 [ADB] Running 'C:\Users\pavan\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 89d3da547d04 shell 'pgrep ^screenrecord$ || pgrep ^screenrecord$''
+2023-03-18 06:12:57:294 [ADB] Running 'C:\Users\pavan\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 89d3da547d04 shell kill -2 20044'
+2023-03-18 06:12:57:350 [ADB] Getting IDs of all 'screenrecord' processes
+2023-03-18 06:12:57:351 [ADB] Running 'C:\Users\pavan\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 89d3da547d04 shell 'pgrep ^screenrecord$ || pgrep ^screenrecord$''
+2023-03-18 06:12:57:994 [ADB] Getting IDs of all 'screenrecord' processes
+2023-03-18 06:12:57:995 [ADB] Running 'C:\Users\pavan\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 89d3da547d04 shell 'pgrep ^screenrecord$ || pgrep ^screenrecord$''
+2023-03-18 06:12:58:602 [ADB] Getting IDs of all 'screenrecord' processes
+2023-03-18 06:12:58:603 [ADB] Running 'C:\Users\pavan\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 89d3da547d04 shell 'pgrep ^screenrecord$ || pgrep ^screenrecord$''
+2023-03-18 06:12:59:215 [ADB] Getting IDs of all 'screenrecord' processes
+2023-03-18 06:12:59:215 [ADB] Running 'C:\Users\pavan\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 89d3da547d04 shell 'pgrep ^screenrecord$ || pgrep ^screenrecord$''
+2023-03-18 06:12:59:337 [ADB] Running 'C:\Users\pavan\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 89d3da547d04 pull /sdcard/41d19902.mp4 C:\Users\pavan\AppData\Local\Temp\2023218-12332-1gjagwz.mzrvl\41d19902.mp4'
+2023-03-18 06:12:59:398 [ADB] Running 'C:\Users\pavan\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 89d3da547d04 shell rm -rf /sdcard/41d19902.mp4'
+2023-03-18 06:12:59:495 [AndroidDriver] The size of the resulting screen recording is 14.06 KB
+2023-03-18 06:12:59:514 [W3C (4e33d1f1)] Responding to client with driver.stopRecordingScreen() result: "AAAAGGZ0eXBtcDQyAAAAAGlzb21tcDQyAAADLm1vb3YAAABsbXZoZAAAAADgOwbj4DsG4wAAA+gAAALbAAEAAAEAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAB5bWV0YQAAACFoZGxyAAAAAAAAAABtZHRhAAAAAAAAAAAAAAAAAAAAACtrZXlzAAAAAAAAAAEAAAAbbWR0YWNvbS5hbmRyb2lkLnZlcnNpb24AAAAlaWxzdAAAAB0AAAABAAAAFWRhdGEAAAABAAAAADcuMS4yAAACQXRyYWsAAABcdGtoZAAAAAfgOwbj4DsG4wAAAAEAAAAAAAAC2wAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAEAAAAAC0AAABQAAAAAAAd1tZGlhAAAAIG1kaGQAAAAA4DsG4+A7BuMAAV+QAAEBBAAAAAAAAAAsaGRscgAAAAAAAAAAdmlkZQAAAAAAAAAAAAAAAFZpZGVvSGFuZGxlAAAAAYltaW5mAAAAFHZtaGQAAAABAAAAAAAAAAAAAAAkZGluZgAAABxkcmVmAAAAAAAAAAEAAAAMdXJsIAAAAAEAAAFJc3RibAAAALFzdHNkAAAAAAAAAAEAAAChYXZjMQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAALQBQAASAAAAEgAAAAAAAAAAQAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgABj//wAAAChhdmNDAUKAIP/hABFnQoAg6QFoFDSkFBgYG0KE1AEABGjOBuIAAAAQcGFzcAABAAAAAQAAAAAAE2NvbHJuY2x4AAEAAQABAAAAAChzdHRzAAAAAAAAAAMAAAABAAAiRAAAAAEAAKTSAAAAAgAAHPcAAAAUc3RzcwAAAAAAAAABAAAAAQAAACRzdHN6AAAA...
+2023-03-18 06:12:59:516 [HTTP] <-- POST /wd/hub/session/4e33d1f1-0322-48e2-80b7-3108d5d41d5a/appium/stop_recording_screen 200 2360 ms - 19216
+2023-03-18 06:12:59:517 [HTTP] 
+2023-03-18 06:12:59:605 [HTTP] --> POST /wd/hub/session/4e33d1f1-0322-48e2-80b7-3108d5d41d5a/appium/start_recording_screen
+2023-03-18 06:12:59:606 [HTTP] {}
+2023-03-18 06:12:59:607 [W3C (4e33d1f1)] Calling AppiumDriver.startRecordingScreen() with args: [null,"4e33d1f1-0322-48e2-80b7-3108d5d41d5a"]
+2023-03-18 06:12:59:609 [ADB] Getting IDs of all 'screenrecord' processes
+2023-03-18 06:12:59:613 [ADB] Running 'C:\Users\pavan\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 89d3da547d04 shell 'pgrep ^screenrecord$ || pgrep ^screenrecord$''
+2023-03-18 06:12:59:811 [AndroidDriver] Screen recording has not been previously started by Appium. There is nothing to stop
+2023-03-18 06:12:59:811 [ADB] Getting IDs of all 'screenrecord' processes
+2023-03-18 06:12:59:813 [ADB] Running 'C:\Users\pavan\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 89d3da547d04 shell 'pgrep ^screenrecord$ || pgrep ^screenrecord$''
+2023-03-18 06:12:59:951 [ADB] Building screenrecord process with the command line: adb -P 5037 -s 89d3da547d04 shell screenrecord --time-limit 180 /sdcard/50a96c68.mp4
+2023-03-18 06:12:59:973 [ADB] Running 'C:\Users\pavan\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 89d3da547d04 shell "[ -e '/sdcard/50a96c68.mp4' ] && echo __PASS__"'
+2023-03-18 06:13:00:380 [ADB] Running 'C:\Users\pavan\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 89d3da547d04 shell "[ -e '/sdcard/50a96c68.mp4' ] && echo __PASS__"'
+2023-03-18 06:13:00:465 [W3C (4e33d1f1)] Responding to client with driver.startRecordingScreen() result: ""
+2023-03-18 06:13:00:468 [HTTP] <-- POST /wd/hub/session/4e33d1f1-0322-48e2-80b7-3108d5d41d5a/appium/start_recording_screen 200 862 ms - 12
+2023-03-18 06:13:00:468 [HTTP] 
+2023-03-18 06:13:00:485 [HTTP] --> GET /wd/hub/session/4e33d1f1-0322-48e2-80b7-3108d5d41d5a/screenshot
+2023-03-18 06:13:00:485 [HTTP] {}
+2023-03-18 06:13:00:489 [W3C (4e33d1f1)] Calling AppiumDriver.getScreenshot() with args: ["4e33d1f1-0322-48e2-80b7-3108d5d41d5a"]
+2023-03-18 06:13:00:492 [WD Proxy] Matched '/screenshot' to command name 'getScreenshot'
+2023-03-18 06:13:00:492 [WD Proxy] Proxying [GET /screenshot] to [GET http://127.0.0.1:10000/wd/hub/session/75ca1fee-e0a2-4a43-9602-3af1dcc3e037/screenshot] with no body
+2023-03-18 06:13:00:913 [WD Proxy] Got response with status 200: {"sessionId":"75ca1fee-e0a2-4a43-9602-3af1dcc3e037","value":"iVBORw0KGgoAAAANSUhEUgAAAtAAAAUACAYAAABuzmU9AAAABHNCSVQICAgIfAhkiAAAIABJREFU\neJzs3VlwXfWd4PHf1W5bkvEibCPJi7zIW7DBBIfg2IZ4oSF0E2ownUo6yUPSVV3TU9Uv1DzM4/Tj\nVL/0TKqSLipUuiadUHSSInFSCUmzBAwE8OB9d2JZeBNYNlq8COnOg1o3li3b+gmbkOTzqaLK9+rc\ne47K18X3nvM//3/hiSeeKAYAADAqZX/oAwAAgD8mAhoAABIENAAAJAhoAABIENAAAJAgoAEAIEFA\nAwBAgoAGAIAEAQ0AAAkCGgAAEgQ0AAAkCGgAAEgQ0AAAkFDxhz4AAICMysrKWLJkScydOzduueWW\niIg4c+ZMHDp0KHbs2BH9/f0RETF37txobW2NX/7yl3Hx4sWP9BinTp0aAwMDcfr06Y90vx8nhUIh\nWlpaorW1NZqbm6Ouri5qamo+sv0Xi8Xo7u6OM2fOxIEDB2L37t1x5syZG/LehSeeeKJ4Q94JAOAm\nW7BgQTz44INRW1s74s/ffffd2Lx5c9TW1sajjz4ahUIhnnrqqWhvb//IjvGuu+6KBx54IA4dOhT/\n9m//9pHtt6qqKurq6qKqqioqKyujsrIyysvLo1gsRl9fX3zwwQfR19cXPT090dPTE8XizUvAmTNn\nxoYNG2L69Ok3bR9ZxWIxtm7dGi+88EKcO3fuQ72XM9AAwB+FO++8Mx588MGIiOjs7IydO3fG8ePH\no1gsxrRp02L58uUxderU+MpXvhLFYjEKhUK88cYbH2k833rrrbF+/fqIiNi7d+9N319lZWVMmjQp\n6uvro6qqqhTFhULhiu0iBiNyypQpMTAwEN3d3XH27Nno6uq6oce0cuXKWLduXRQKhSgWi7F///7Y\nt29fdHR0RE9PTwwMDNzQ/V1N...
+2023-03-18 06:13:00:914 [W3C (4e33d1f1)] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAAtAAAAUACAYAAABuzmU9AAAABHNCSVQICAgIfAhkiAAAIABJREFU\neJzs3VlwXfWd4PHf1W5bkvEibCPJi7zIW7DBBIfg2IZ4oSF0E2ownUo6yUPSVV3TU9Uv1DzM4/Tj\nVL/0TKqSLipUuiadUHSSInFSCUmzBAwE8OB9d2JZeBNYNlq8COnOg1o3li3b+gmbkOTzqaLK9+rc\ne47K18X3nvM//3/hiSeeKAYAADAqZX/oAwAAgD8mAhoAABIENAAAJAhoAABIENAAAJAgoAEAIEFA\nAwBAgoAGAIAEAQ0AAAkCGgAAEgQ0AAAkCGgAAEgQ0AAAkFDxhz4AAICMysrKWLJkScydOzduueWW\niIg4c+ZMHDp0KHbs2BH9/f0RETF37txobW2NX/7yl3Hx4sWP9BinTp0aAwMDcfr06Y90vx8nhUIh\nWlpaorW1NZqbm6Ouri5qamo+sv0Xi8Xo7u6OM2fOxIEDB2L37t1x5syZG/LehSeeeKJ4Q94JAOAm\nW7BgQTz44INRW1s74s/ffffd2Lx5c9TW1sajjz4ahUIhnnrqqWhvb//IjvGuu+6KBx54IA4dOhT/\n9m//9pHtt6qqKurq6qKqqioqKyujsrIyysvLo1gsRl9fX3zwwQfR19cXPT090dPTE8XizUvAmTNn\nxoYNG2L69Ok3bR9ZxWIxtm7dGi+88EKcO3fuQ72XM9AAwB+FO++8Mx588MGIiOjs7IydO3fG8ePH\no1gsxrRp02L58uUxderU+MpXvhLFYjEKhUK88cYbH2k833rrrbF+/fqIiNi7d+9N319lZWVMmjQp\n6uvro6qqqhTFhULhiu0iBiNyypQpMTAwEN3d3XH27Nno6uq6oce0cuXKWLduXRQKhSgWi7F///7Y\nt29fdHR0RE9PTwwMDNzQ/V1NVVVV1NbWxqxZs2Lp0qUxZcqUWLFiRbS0tMT3v//9ePfdd8f83jf0\nDPT48e...
+2023-03-18 06:13:00:915 [HTTP] <-- GET /wd/hub/session/4e33d1f1-0322-48e2-80b7-3108d5d41d5a/screenshot 200 430 ms - 17250
+2023-03-18 06:13:00:915 [HTTP] 
+2023-03-18 06:13:00:922 [HTTP] --> POST /wd/hub/session/4e33d1f1-0322-48e2-80b7-3108d5d41d5a/appium/stop_recording_screen
+2023-03-18 06:13:00:922 [HTTP] {}
+2023-03-18 06:13:00:922 [W3C (4e33d1f1)] Calling AppiumDriver.stopRecordingScreen() with args: [null,"4e33d1f1-0322-48e2-80b7-3108d5d41d5a"]
+2023-03-18 06:13:00:923 [ADB] Getting IDs of all 'screenrecord' processes
+2023-03-18 06:13:00:923 [ADB] Running 'C:\Users\pavan\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 89d3da547d04 shell 'pgrep ^screenrecord$ || pgrep ^screenrecord$''
+2023-03-18 06:13:01:026 [ADB] Running 'C:\Users\pavan\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 89d3da547d04 shell kill -2 20202'
+2023-03-18 06:13:01:070 [ADB] Getting IDs of all 'screenrecord' processes
+2023-03-18 06:13:01:070 [ADB] Running 'C:\Users\pavan\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 89d3da547d04 shell 'pgrep ^screenrecord$ || pgrep ^screenrecord$''
+2023-03-18 06:13:01:680 [ADB] Getting IDs of all 'screenrecord' processes
+2023-03-18 06:13:01:680 [ADB] Running 'C:\Users\pavan\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 89d3da547d04 shell 'pgrep ^screenrecord$ || pgrep ^screenrecord$''
+2023-03-18 06:13:02:285 [ADB] Getting IDs of all 'screenrecord' processes
+2023-03-18 06:13:02:286 [ADB] Running 'C:\Users\pavan\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 89d3da547d04 shell 'pgrep ^screenrecord$ || pgrep ^screenrecord$''
+2023-03-18 06:13:02:385 [ADB] Running 'C:\Users\pavan\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 89d3da547d04 pull /sdcard/50a96c68.mp4 C:\Users\pavan\AppData\Local\Temp\2023218-12332-1cdw6w6.lrln\50a96c68.mp4'
+2023-03-18 06:13:02:424 [ADB] Running 'C:\Users\pavan\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 89d3da547d04 shell rm -rf /sdcard/50a96c68.mp4'
+2023-03-18 06:13:02:493 [AndroidDriver] The size of the resulting screen recording is 7.76 KB
+2023-03-18 06:13:02:498 [W3C (4e33d1f1)] Responding to client with driver.stopRecordingScreen() result: "AAAAGGZ0eXBtcDQyAAAAAGlzb21tcDQyAAADHm1vb3YAAABsbXZoZAAAAADgOwbn4DsG5wAAA+gAAACvAAEAAAEAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAB5bWV0YQAAACFoZGxyAAAAAAAAAABtZHRhAAAAAAAAAAAAAAAAAAAAACtrZXlzAAAAAAAAAAEAAAAbbWR0YWNvbS5hbmRyb2lkLnZlcnNpb24AAAAlaWxzdAAAAB0AAAABAAAAFWRhdGEAAAABAAAAADcuMS4yAAACMXRyYWsAAABcdGtoZAAAAAfgOwbn4DsG5wAAAAEAAAAAAAAArwAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAEAAAAAC0AAABQAAAAAAAc1tZGlhAAAAIG1kaGQAAAAA4DsG5+A7BucAAV+QAAA9bwAAAAAAAAAsaGRscgAAAAAAAAAAdmlkZQAAAAAAAAAAAAAAAFZpZGVvSGFuZGxlAAAAAXltaW5mAAAAFHZtaGQAAAABAAAAAAAAAAAAAAAkZGluZgAAABxkcmVmAAAAAAAAAAEAAAAMdXJsIAAAAAEAAAE5c3RibAAAALFzdHNkAAAAAAAAAAEAAAChYXZjMQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAALQBQAASAAAAEgAAAAAAAAAAQAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgABj//wAAAChhdmNDAUKAIP/hABFnQoAg6QFoFDSkFBgYG0KE1AEABGjOBuIAAAAQcGFzcAABAAAAAQAAAAAAE2NvbHJuY2x4AAEAAQABAAAAACBzdHRzAAAAAAAAAAIAAAABAAAeuAAAAAEAAB64AAAAFHN0c3MAAAAAAAAAAQAAAAEAAAAcc3RzegAAAAAAAAAAAAAA...
+2023-03-18 06:13:02:499 [HTTP] <-- POST /wd/hub/session/4e33d1f1-0322-48e2-80b7-3108d5d41d5a/appium/stop_recording_screen 200 1577 ms - 10608
+2023-03-18 06:13:02:500 [HTTP] 
+2023-03-18 06:13:02:515 [HTTP] --> POST /wd/hub/session/4e33d1f1-0322-48e2-80b7-3108d5d41d5a/appium/start_recording_screen
+2023-03-18 06:13:02:515 [HTTP] {}
+2023-03-18 06:13:02:515 [W3C (4e33d1f1)] Calling AppiumDriver.startRecordingScreen() with args: [null,"4e33d1f1-0322-48e2-80b7-3108d5d41d5a"]
+2023-03-18 06:13:02:516 [ADB] Getting IDs of all 'screenrecord' processes
+2023-03-18 06:13:02:516 [ADB] Running 'C:\Users\pavan\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 89d3da547d04 shell 'pgrep ^screenrecord$ || pgrep ^screenrecord$''
+2023-03-18 06:13:02:619 [AndroidDriver] Screen recording has not been previously started by Appium. There is nothing to stop
+2023-03-18 06:13:02:619 [ADB] Getting IDs of all 'screenrecord' processes
+2023-03-18 06:13:02:619 [ADB] Running 'C:\Users\pavan\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 89d3da547d04 shell 'pgrep ^screenrecord$ || pgrep ^screenrecord$''
+2023-03-18 06:13:02:726 [ADB] Building screenrecord process with the command line: adb -P 5037 -s 89d3da547d04 shell screenrecord --time-limit 180 /sdcard/063d11c4.mp4
+2023-03-18 06:13:02:751 [ADB] Running 'C:\Users\pavan\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 89d3da547d04 shell "[ -e '/sdcard/063d11c4.mp4' ] && echo __PASS__"'
+2023-03-18 06:13:03:108 [ADB] Running 'C:\Users\pavan\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 89d3da547d04 shell "[ -e '/sdcard/063d11c4.mp4' ] && echo __PASS__"'
+2023-03-18 06:13:03:170 [W3C (4e33d1f1)] Responding to client with driver.startRecordingScreen() result: ""
+2023-03-18 06:13:03:171 [HTTP] <-- POST /wd/hub/session/4e33d1f1-0322-48e2-80b7-3108d5d41d5a/appium/start_recording_screen 200 655 ms - 12
+2023-03-18 06:13:03:171 [HTTP] 
+2023-03-18 06:13:03:184 [HTTP] --> GET /wd/hub/session/4e33d1f1-0322-48e2-80b7-3108d5d41d5a/screenshot
+2023-03-18 06:13:03:184 [HTTP] {}
+2023-03-18 06:13:03:185 [W3C (4e33d1f1)] Calling AppiumDriver.getScreenshot() with args: ["4e33d1f1-0322-48e2-80b7-3108d5d41d5a"]
+2023-03-18 06:13:03:185 [WD Proxy] Matched '/screenshot' to command name 'getScreenshot'
+2023-03-18 06:13:03:185 [WD Proxy] Proxying [GET /screenshot] to [GET http://127.0.0.1:10000/wd/hub/session/75ca1fee-e0a2-4a43-9602-3af1dcc3e037/screenshot] with no body
+2023-03-18 06:13:03:679 [WD Proxy] Got response with status 200: {"sessionId":"75ca1fee-e0a2-4a43-9602-3af1dcc3e037","value":"iVBORw0KGgoAAAANSUhEUgAAAtAAAAUACAYAAABuzmU9AAAABHNCSVQICAgIfAhkiAAAIABJREFU\neJzs3VlwXfWd4PHf1W5bkvEibCPJi7zIW7DBBIfg2IZ4oSF0E2ownUo6yUPSVV3TU9Uv1DzM4/Tj\nVL/0TKqSLipUuiadUHSSInFSCUmzBAwE8OB9d2JZeBNYNlq8COnOg1o3li3b+gmbkOTzqaLK9+rc\ne47K18X3nvM//3/hiSeeKAYAADAqZX/oAwAAgD8mAhoAABIENAAAJAhoAABIENAAAJAgoAEAIEFA\nAwBAgoAGAIAEAQ0AAAkCGgAAEgQ0AAAkCGgAAEgQ0AAAkFDxhz4AAICMysrKWLJkScydOzduueWW\niIg4c+ZMHDp0KHbs2BH9/f0RETF37txobW2NX/7yl3Hx4sWP9BinTp0aAwMDcfr06Y90vx8nhUIh\nWlpaorW1NZqbm6Ouri5qamo+sv0Xi8Xo7u6OM2fOxIEDB2L37t1x5syZG/LehSeeeKJ4Q94JAOAm\nW7BgQTz44INRW1s74s/ffffd2Lx5c9TW1sajjz4ahUIhnnrqqWhvb//IjvGuu+6KBx54IA4dOhT/\n9m//9pHtt6qqKurq6qKqqioqKyujsrIyysvLo1gsRl9fX3zwwQfR19cXPT090dPTE8XizUvAmTNn\nxoYNG2L69Ok3bR9ZxWIxtm7dGi+88EKcO3fuQ72XM9AAwB+FO++8Mx588MGIiOjs7IydO3fG8ePH\no1gsxrRp02L58uUxderU+MpXvhLFYjEKhUK88cYbH2k833rrrbF+/fqIiNi7d+9N319lZWVMmjQp\n6uvro6qqqhTFhULhiu0iBiNyypQpMTAwEN3d3XH27Nno6uq6oce0cuXKWLduXRQKhSgWi7F///7Y\nt29fdHR0RE9PTwwMDNzQ/V1N...
+2023-03-18 06:13:03:680 [W3C (4e33d1f1)] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAAtAAAAUACAYAAABuzmU9AAAABHNCSVQICAgIfAhkiAAAIABJREFU\neJzs3VlwXfWd4PHf1W5bkvEibCPJi7zIW7DBBIfg2IZ4oSF0E2ownUo6yUPSVV3TU9Uv1DzM4/Tj\nVL/0TKqSLipUuiadUHSSInFSCUmzBAwE8OB9d2JZeBNYNlq8COnOg1o3li3b+gmbkOTzqaLK9+rc\ne47K18X3nvM//3/hiSeeKAYAADAqZX/oAwAAgD8mAhoAABIENAAAJAhoAABIENAAAJAgoAEAIEFA\nAwBAgoAGAIAEAQ0AAAkCGgAAEgQ0AAAkCGgAAEgQ0AAAkFDxhz4AAICMysrKWLJkScydOzduueWW\niIg4c+ZMHDp0KHbs2BH9/f0RETF37txobW2NX/7yl3Hx4sWP9BinTp0aAwMDcfr06Y90vx8nhUIh\nWlpaorW1NZqbm6Ouri5qamo+sv0Xi8Xo7u6OM2fOxIEDB2L37t1x5syZG/LehSeeeKJ4Q94JAOAm\nW7BgQTz44INRW1s74s/ffffd2Lx5c9TW1sajjz4ahUIhnnrqqWhvb//IjvGuu+6KBx54IA4dOhT/\n9m//9pHtt6qqKurq6qKqqioqKyujsrIyysvLo1gsRl9fX3zwwQfR19cXPT090dPTE8XizUvAmTNn\nxoYNG2L69Ok3bR9ZxWIxtm7dGi+88EKcO3fuQ72XM9AAwB+FO++8Mx588MGIiOjs7IydO3fG8ePH\no1gsxrRp02L58uUxderU+MpXvhLFYjEKhUK88cYbH2k833rrrbF+/fqIiNi7d+9N319lZWVMmjQp\n6uvro6qqqhTFhULhiu0iBiNyypQpMTAwEN3d3XH27Nno6uq6oce0cuXKWLduXRQKhSgWi7F///7Y\nt29fdHR0RE9PTwwMDNzQ/V1NVVVV1NbWxqxZs2Lp0qUxZcqUWLFiRbS0tMT3v//9ePfdd8f83jf0\nDPT48e...
+2023-03-18 06:13:03:682 [HTTP] <-- GET /wd/hub/session/4e33d1f1-0322-48e2-80b7-3108d5d41d5a/screenshot 200 496 ms - 17250
+2023-03-18 06:13:03:682 [HTTP] 
+2023-03-18 06:13:03:695 [HTTP] --> POST /wd/hub/session/4e33d1f1-0322-48e2-80b7-3108d5d41d5a/appium/stop_recording_screen
+2023-03-18 06:13:03:695 [HTTP] {}
+2023-03-18 06:13:03:696 [W3C (4e33d1f1)] Calling AppiumDriver.stopRecordingScreen() with args: [null,"4e33d1f1-0322-48e2-80b7-3108d5d41d5a"]
+2023-03-18 06:13:03:697 [ADB] Getting IDs of all 'screenrecord' processes
+2023-03-18 06:13:03:698 [ADB] Running 'C:\Users\pavan\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 89d3da547d04 shell 'pgrep ^screenrecord$ || pgrep ^screenrecord$''
+2023-03-18 06:13:03:870 [ADB] Running 'C:\Users\pavan\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 89d3da547d04 shell kill -2 20261'
+2023-03-18 06:13:03:935 [ADB] Getting IDs of all 'screenrecord' processes
+2023-03-18 06:13:03:935 [ADB] Running 'C:\Users\pavan\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 89d3da547d04 shell 'pgrep ^screenrecord$ || pgrep ^screenrecord$''
+2023-03-18 06:13:04:627 [ADB] Getting IDs of all 'screenrecord' processes
+2023-03-18 06:13:04:628 [ADB] Running 'C:\Users\pavan\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 89d3da547d04 shell 'pgrep ^screenrecord$ || pgrep ^screenrecord$''
+2023-03-18 06:13:05:358 [ADB] Getting IDs of all 'screenrecord' processes
+2023-03-18 06:13:05:359 [ADB] Running 'C:\Users\pavan\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 89d3da547d04 shell 'pgrep ^screenrecord$ || pgrep ^screenrecord$''
+2023-03-18 06:13:05:494 [ADB] Running 'C:\Users\pavan\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 89d3da547d04 pull /sdcard/063d11c4.mp4 C:\Users\pavan\AppData\Local\Temp\2023218-12332-1rp3gmm.adgn\063d11c4.mp4'
+2023-03-18 06:13:05:577 [ADB] Running 'C:\Users\pavan\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 89d3da547d04 shell rm -rf /sdcard/063d11c4.mp4'
+2023-03-18 06:13:05:682 [AndroidDriver] The size of the resulting screen recording is 77.29 KB
+2023-03-18 06:13:05:702 [W3C (4e33d1f1)] Responding to client with driver.stopRecordingScreen() result: "AAAAGGZ0eXBtcDQyAAAAAGlzb21tcDQyAAAEBm1vb3YAAABsbXZoZAAAAADgOwbq4DsG6gAAA+gAAAOlAAEAAAEAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAB5bWV0YQAAACFoZGxyAAAAAAAAAABtZHRhAAAAAAAAAAAAAAAAAAAAACtrZXlzAAAAAAAAAAEAAAAbbWR0YWNvbS5hbmRyb2lkLnZlcnNpb24AAAAlaWxzdAAAAB0AAAABAAAAFWRhdGEAAAABAAAAADcuMS4yAAADGXRyYWsAAABcdGtoZAAAAAfgOwbq4DsG6gAAAAEAAAAAAAADpQAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAEAAAAAC0AAABQAAAAAAArVtZGlhAAAAIG1kaGQAAAAA4DsG6uA7BuoAAV+QAAFH2QAAAAAAAAAsaGRscgAAAAAAAAAAdmlkZQAAAAAAAAAAAAAAAFZpZGVvSGFuZGxlAAAAAmFtaW5mAAAAFHZtaGQAAAABAAAAAAAAAAAAAAAkZGluZgAAABxkcmVmAAAAAAAAAAEAAAAMdXJsIAAAAAEAAAIhc3RibAAAALFzdHNkAAAAAAAAAAEAAAChYXZjMQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAALQBQAASAAAAEgAAAAAAAAAAQAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgABj//wAAAChhdmNDAUKAIP/hABFnQoAg6QFoFDSkFBgYG0KE1AEABGjOBuIAAAAQcGFzcAABAAAAAQAAAAAAE2NvbHJuY2x4AAEAAQABAAAAALhzdHRzAAAAAAAAABUAAAABAAAaJAAAAAEAAHCcAAAAAQAADBIAAAABAAAGGwAAAAEAAAcqAAAAAQAACHYAAAABAAAJ...
+2023-03-18 06:13:05:708 [HTTP] <-- POST /wd/hub/session/4e33d1f1-0322-48e2-80b7-3108d5d41d5a/appium/stop_recording_screen 200 2009 ms - 105540
+2023-03-18 06:13:05:709 [HTTP] 
+2023-03-18 06:13:08:763 [HTTP] --> DELETE /wd/hub/session/4e33d1f1-0322-48e2-80b7-3108d5d41d5a
+2023-03-18 06:13:08:763 [HTTP] {}
+2023-03-18 06:13:08:764 [W3C (4e33d1f1)] Calling AppiumDriver.deleteSession() with args: ["4e33d1f1-0322-48e2-80b7-3108d5d41d5a"]
+2023-03-18 06:13:08:764 [BaseDriver] Event 'quitSessionRequested' logged at 1679119988764 (11:43:08 GMT+0530 (India Standard Time))
+2023-03-18 06:13:08:766 [Appium] Removing session 4e33d1f1-0322-48e2-80b7-3108d5d41d5a from our master session list
+2023-03-18 06:13:08:768 [UiAutomator2] Deleting UiAutomator2 session
+2023-03-18 06:13:08:772 [UiAutomator2] Deleting UiAutomator2 server session
+2023-03-18 06:13:08:773 [WD Proxy] Matched '/' to command name 'deleteSession'
+2023-03-18 06:13:08:774 [WD Proxy] Proxying [DELETE /] to [DELETE http://127.0.0.1:10000/wd/hub/session/75ca1fee-e0a2-4a43-9602-3af1dcc3e037] with no body
+2023-03-18 06:13:08:795 [WD Proxy] Got response with status 200: {"sessionId":"75ca1fee-e0a2-4a43-9602-3af1dcc3e037","value":null}
+2023-03-18 06:13:08:795 [ADB] Running 'C:\Users\pavan\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 89d3da547d04 shell am force-stop com.fiinumobileapp'
+2023-03-18 06:13:09:202 [Instrumentation] .
+2023-03-18 06:13:09:309 [Instrumentation] Time: 18.059
+2023-03-18 06:13:09:309 [Instrumentation] 
+2023-03-18 06:13:09:309 [Instrumentation] OK (1 test)
+2023-03-18 06:13:09:576 [Instrumentation] The process has exited with code 0
+2023-03-18 06:13:10:246 [Logcat] Stopping logcat capture
+2023-03-18 06:13:10:260 [ADB] Removing forwarded port socket connection: 10000 
+2023-03-18 06:13:10:261 [ADB] Running 'C:\Users\pavan\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 89d3da547d04 forward --remove tcp:10000'
+2023-03-18 06:13:10:322 [BaseDriver] Event 'quitSessionFinished' logged at 1679119990322 (11:43:10 GMT+0530 (India Standard Time))
+2023-03-18 06:13:10:322 [W3C (4e33d1f1)] Received response: null
+2023-03-18 06:13:10:322 [W3C (4e33d1f1)] But deleting session, so not returning
+2023-03-18 06:13:10:323 [W3C (4e33d1f1)] Responding to client with driver.deleteSession() result: null
+2023-03-18 06:13:10:323 [HTTP] <-- DELETE /wd/hub/session/4e33d1f1-0322-48e2-80b7-3108d5d41d5a 200 1562 ms - 14
+2023-03-18 06:13:10:323 [HTTP] 
